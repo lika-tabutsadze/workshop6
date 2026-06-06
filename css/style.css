@@ -226,3 +226,85 @@
     line-height: 146%;
     letter-spacing: 0%;
  }
+
+ /* SECTION 3 CSS */
+
+ .experts-container {
+    display: flex;
+    flex-direction: column;
+    width: 1220px;
+    height: 659px;
+    gap: 41px;
+    margin: 0 auto 131px;
+    align-items: center;
+    text-align: center;
+ }
+
+ .expert-blocks {
+    display: flex;
+    gap: 31px;
+
+}
+
+.expert-desc {
+    display: flex;
+    background-color: white;
+    width: 341px;
+    height: 114px;
+    padding: 24px 69px;
+    position: absolute;
+    left: 22px;
+    bottom: 22px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.expert-block {
+    position: relative;
+}
+
+.expert-titles {
+    color: #37393F;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.experts-h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.experts-h5 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 121%;
+    letter-spacing: 0%;
+}
+
+.expert-name {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #37393F;
+}
+
+.expert-job {
+    color: #7D7D7D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 135%;
+    letter-spacing: 0%;
+}
+
+.desc-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
