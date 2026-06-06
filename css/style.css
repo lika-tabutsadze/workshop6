@@ -1,0 +1,56 @@
+/*  HEADER CSS */
+.header-main {
+    display: flex;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.header-container {
+    width: 1220px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 53px auto;
+}
+
+
+.navigation {
+    display: flex;
+    width: 825px;
+    height: 65px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-ul {
+    width: 601px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-a {
+    color: #37393F;
+    font-size: 18px;
+    letter-spacing: 0%;
+    line-height: 100%;
+    font-weight: 400;
+    margin-right: 40px;
+}
+
+.btn {
+    background-color: #6B77E5;
+    height: 65px;
+    padding: 21px 35px 22px 35px;
+    color: white;
+    line-height: 100%;
+    font-weight: 600;
+    border: none;
+    letter-spacing: 0%;
+    font-size: 18px;
+} 
+
