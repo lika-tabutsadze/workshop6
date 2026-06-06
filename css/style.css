@@ -1,5 +1,6 @@
 /*  HEADER CSS */
 .header-main {
+    background-color: white;
     display: flex;
     position: sticky;
     left: 0;
@@ -161,3 +162,66 @@
 .middle-icon {
     background-color: #6B77E5;
 }
+
+
+/* SECTION 2 CSS */
+
+.presentation {
+    position: relative;
+}
+
+.present-div {
+    width: 511px;
+    height: 270.5px;
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    align-items: center;
+}
+
+.present-text {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    color: #37393F;
+}
+
+.present-titles {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.present-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B77E5;
+    width: 64.5px;
+    height: 64.5px;
+    border-radius: 50%;
+ }
+
+ .present-h3 {
+    font-size: 18px;
+    font-weight: 500;
+ }
+
+ .present-h4 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 121%;
+    letter-spacing: 0%;
+ }
+
+ .present-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 146%;
+    letter-spacing: 0%;
+ }
